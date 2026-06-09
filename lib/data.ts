@@ -1,0 +1,133 @@
+export interface Rental {
+  id: number;
+  title: string;
+  price: number;
+  location: string;
+  rating: number;
+  image: string;
+  category: string;
+  description: string;
+}
+
+export const mockRentals: Rental[] = [
+  {
+    id: 1,
+    title: 'Luxury BMW 7 Series',
+    price: 150,
+    location: 'New York, NY',
+    rating: 4.9,
+    image: '🚗',
+    category: 'cars',
+    description: 'Premium luxury sedan with full features and leather interior',
+  },
+  {
+    id: 2,
+    title: 'Cordless Drill Kit Pro',
+    price: 25,
+    location: 'Los Angeles, CA',
+    rating: 4.7,
+    image: '🔧',
+    category: 'tools',
+    description: 'Professional grade cordless drill with complete set of accessories',
+  },
+  {
+    id: 3,
+    title: 'Modern L-Shaped Sofa',
+    price: 80,
+    location: 'Chicago, IL',
+    rating: 4.8,
+    image: '🛋️',
+    category: 'furniture',
+    description: 'Contemporary L-shaped sofa in excellent condition',
+  },
+  {
+    id: 4,
+    title: 'Mercedes C-Class Sedan',
+    price: 180,
+    location: 'Houston, TX',
+    rating: 4.6,
+    image: '🚗',
+    category: 'cars',
+    description: 'Sleek and stylish Mercedes with advanced features',
+  },
+  {
+    id: 5,
+    title: 'Power Saw Set',
+    price: 35,
+    location: 'Phoenix, AZ',
+    rating: 4.5,
+    image: '🔧',
+    category: 'tools',
+    description: 'Complete power saw set with safety equipment',
+  },
+  {
+    id: 6,
+    title: 'Dining Room Table & Chairs',
+    price: 120,
+    location: 'Philadelphia, PA',
+    rating: 4.9,
+    image: '🛋️',
+    category: 'furniture',
+    description: 'Complete dining set with 6 chairs',
+  },
+  {
+    id: 7,
+    title: 'Tesla Model 3',
+    price: 200,
+    location: 'San Francisco, CA',
+    rating: 5.0,
+    image: '🚗',
+    category: 'cars',
+    description: 'Electric Tesla with autopilot and premium features',
+  },
+  {
+    id: 8,
+    title: 'Complete Toolkit',
+    price: 40,
+    location: 'Seattle, WA',
+    rating: 4.8,
+    image: '🔧',
+    category: 'tools',
+    description: 'Professional construction toolkit with 100+ pieces',
+  },
+  {
+    id: 9,
+    title: 'Office Desk Setup',
+    price: 60,
+    location: 'Boston, MA',
+    rating: 4.7,
+    image: '🛋️',
+    category: 'furniture',
+    description: 'Premium office desk with ergonomic chair',
+  },
+  {
+    id: 10,
+    title: 'Audi A4 Sedan',
+    price: 170,
+    location: 'Miami, FL',
+    rating: 4.8,
+    image: '🚗',
+    category: 'cars',
+    description: 'Luxury Audi with navigation and premium sound system',
+  },
+  {
+    id: 11,
+    title: 'Laptop & Monitor Setup',
+    price: 50,
+    location: 'Denver, CO',
+    rating: 4.6,
+    image: '💻',
+    category: 'electronics',
+    description: 'High-performance laptop with 4K monitor',
+  },
+  {
+    id: 12,
+    title: 'Wedding Chair Rental',
+    price: 5,
+    location: 'Atlanta, GA',
+    rating: 4.9,
+    image: '🪑',
+    category: 'furniture',
+    description: 'Beautiful event chairs for parties and celebrations',
+  },
+];
